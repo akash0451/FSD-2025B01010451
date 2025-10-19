@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+</head>
+<body>
+    <h2 style="text-align: center;">Student Registration Form</h2> <hr>
+    <form action="/submit_registration" method="post" style="width:300px; margin: 0 auto;">
+        <label for="username">Full name:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your full name"  required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter valid email address" required><br><br>
+       
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter password" required><br><br>
+
+       <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" required><label for="male">Male</label>
+        <input type="radio" id="female" name="gender" required><label for="female">Female</label>
+        <input type="radio" id="other" name="gender" required><label for="other">Other</label>
+        <br><br>  
+        
+        <label for="course">Course:</label>
+        <select id="course" name="course"  required> 
+            <option value="">--Select Course--</option>
+            <option value="btech">B.Tech</option>
+            <option value="mtech">M.Tech</option>
+            <option value="phd">PhD</option>
+            
+        </select><br><br>
+
+
+        <label for="phone">Contact No:</label>
+        <input type="number" id="phone" name="phone" placeholder="Enter phone number" required>
+        <br><br>
+        
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" cols="40" placeholder="Enter your address"></textarea>
+        <br><br>
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+        <br> 
+        
+        <p style="text-align: centre;">&copy; 2025 Student Registration Portal</p>
+</body>
+</html>
