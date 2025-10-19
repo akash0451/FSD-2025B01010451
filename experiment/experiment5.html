@@ -6,8 +6,9 @@
     <title>registration form</title>
 </head>
 <body>
-    <h2 style="text-align: center;">Student Registration Form</h2> <hr>
-    <form action="/submit_registration" method="post" style="width:300px; margin: 0 auto;">
+    <h2 style="text-align: center;">Student Registration Form</h2>
+    <hr>
+    <form action="/submit_registration" method="post">  
         <label for="username">Full name:</label>
         <input type="text" id="username" name="username" placeholder="Enter your full name"  required><br><br>
         
@@ -37,13 +38,13 @@
         <input type="number" id="phone" name="phone" placeholder="Enter phone number" required>
         <br><br>
         
-        <label for="address">Address:</label>
+        <label for="address">Address:</label><br>
         <textarea id="address" name="address" rows="4" cols="40" placeholder="Enter your address"></textarea>
         <br><br>
         <input type="submit" value="Register">
         <input type="reset" value="Clear">
         <br> 
-        
-        <p style="text-align: centre;">&copy; 2025 Student Registration Portal</p>
+        <hr>
+        <p style="text-align: center;">&copy; 2025 Student Registration Portal</p>
 </body>
 </html>
