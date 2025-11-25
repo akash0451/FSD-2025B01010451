@@ -1,0 +1,31 @@
+#first {
+    width: 300px;
+    height: 200px;
+    background-color: lightblue;
+    border: 2px solid rgb(234, 236, 165);
+    font-family: Cambria;
+   
+}
+
+#second {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(181, 54, 139);
+    border: 2px solid rgb(214, 214, 215);
+    font-family: Cambria;
+
+}
+h1 {
+   
+    background-color: rgb(88, 141, 28);
+    border:  solid rgb(19, 19, 21);
+    font-family: Cambria;
+   
+}
+h2{
+   
+    background-color: rgb(218, 220, 108);
+    border:  solid rgb(199, 32, 32);
+    font-family: Cambria;
+   
+}
